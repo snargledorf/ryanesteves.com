@@ -102,7 +102,7 @@ header h2 {
   max-width: 100%;
 }
 
-#downloads {
+#social-icons {
   margin-bottom: 40px;
 }
 
@@ -159,16 +159,6 @@ a.button span {
   display: block;
   /*height: 23px;*/
   padding-left: 50px;
-}
-
-#download-tar-gz span {
-  background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
-}
-#view-on-github span {
-  background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
-}
-#view-on-github {
-  margin-right: 0;
 }
 
 code, pre {
@@ -360,15 +350,11 @@ footer a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  #downloads {
+  #social-icons {
     margin-bottom: 25px;
-  }
-  #download-zip, #download-tar-gz {
-    display: none;
   }
   .inner {
     width: 94%;
-    margin: 0 auto;
   }
 }
 
@@ -376,4 +362,6 @@ footer a:hover {
 @media only screen and (min-width: 480px) and (max-width: 767px) { }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) { }
+@media only screen and (max-width: 479px) { 
+
+}
