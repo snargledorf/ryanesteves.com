@@ -103,6 +103,10 @@ header h2 {
 }
 
 #social-icons {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 12px 14px;
+  border-radius: 12px;
 }
 
 a.social-icon img {
