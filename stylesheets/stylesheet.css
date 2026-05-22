@@ -103,12 +103,12 @@ header h2 {
 }
 
 #social-icons {
-  margin-bottom: 40px;
 }
 
-a.social-icon {
-  height:64px;
+a.social-icon img {
+  height: 64px;
   width: 64px;
+  object-fit: contain;
 }
 
 a.button {
